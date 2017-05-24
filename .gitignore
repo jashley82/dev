@@ -1,0 +1,14 @@
+# Ignore everything:
+*
+
+# Except for the dev directories:
+
+!.gitignore
+!dev/
+!dev/*
+
+!ubuntu16-04/
+!ubuntu16-04/*
+
+!centos7/
+!centos7/*
