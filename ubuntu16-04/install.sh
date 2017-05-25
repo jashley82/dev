@@ -1,10 +1,16 @@
 #!/bin/bash
 
-apt install -y python python-pip
+# apt and pip requirements 
+# symlink dotfiles
+# vim plugins
 
-pip install -r requirements.txt 
+sudo apt install -y < packages.txt
 
-cp .bashrc ~
-cp .vimrc ~
-cp .tmux.conf ~
-cp -r .vim/ ~
+pip install -r requirements.txt
+
+
+DOTFILES=".bashrc .vim .vimrc .tmux.conf"
+
+for i in $DOTFILES; do
+    $(cp -r $i $HOME)
+done
