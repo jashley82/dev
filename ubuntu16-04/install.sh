@@ -4,6 +4,7 @@
 # symlink dotfiles
 # vim plugins
 
+sudo apt update -y
 sudo apt install -y \
     python \
     python-pip \
