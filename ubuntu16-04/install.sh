@@ -4,7 +4,11 @@
 # symlink dotfiles
 # vim plugins
 
-sudo apt install -y < packages.txt
+sudo apt install -y \
+    python \
+    python-pip \
+    vim \
+    tmux
 
 pip install -r requirements.txt
 
