@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# apt and pip requirements 
-# symlink dotfiles
-# vim plugins
-
 sudo apt update -y
 sudo apt install -y \
     python \
@@ -13,6 +9,9 @@ sudo apt install -y \
 
 pip install -r requirements.txt
 
+sudo mv PowerlineSymbols.otf /usr/share/fonts/
+sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
+sudo fc-cache -vf
 
 DOTFILES=".bashrc .vim .vimrc .tmux.conf"
 
