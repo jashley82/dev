@@ -21,7 +21,15 @@ set laststatus=2
 set t_Co=256
 
 " python mode
-let g:pymode=1
+let g:pymode = 1
+let g:pymode_lint = 0
+let g:pymode_rope = 1
+let g:pymode_rope_completion_bind = '<C-Space>'
+let g:pymode_rope_goto_definition_bind = '<C-c>g'
+let g:pymode_rope_rename_bind = '<C-c>rr'
+let g:pymode_rope_organize_imports_bind = '<C-c>ro'
+let g:pymode_rope_autoimport_bind = '<C-c>ra'
+let g:pymode_breakpoint_bind = '<leader>b'
 
 set mouse=a
 set tabstop=4
