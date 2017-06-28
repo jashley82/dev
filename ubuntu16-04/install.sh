@@ -8,7 +8,7 @@ sudo apt-get install -y \
     vim \
     tmux
 
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 
 sudo mv PowerlineSymbols.otf /usr/share/fonts/
 sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
