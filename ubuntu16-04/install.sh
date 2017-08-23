@@ -10,7 +10,7 @@ sudo apt-get install -y \
 
 sudo pip install -r requirements.txt
 
-sudo cp PowerlineSymbols.otf /usr/share/fonts/
+sudo cp PowerlineSymbols.otf /usr/local/share/fonts/
 sudo cp 10-powerline-symbols.conf /etc/fonts/conf.d/
 sudo fc-cache -vf
 
