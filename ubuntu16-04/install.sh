@@ -19,3 +19,7 @@ DOTFILES=".bashrc .vim .vimrc .tmux.conf"
 for i in $DOTFILES; do
     $(cp -r $i $HOME)
 done
+
+git config --global user.email "ashley.joshua@gmail.com"
+git config --global user.name "josh"
+
