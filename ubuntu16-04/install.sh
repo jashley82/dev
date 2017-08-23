@@ -14,12 +14,13 @@ sudo cp PowerlineSymbols.otf /usr/share/fonts/
 sudo cp 10-powerline-symbols.conf /etc/fonts/conf.d/
 sudo fc-cache -vf
 
-DOTFILES=".bashrc .vim .vimrc .tmux.conf"
+DOTFILES=".bashrc .vimrc .tmux.conf"
 
 for i in $DOTFILES; do
     $(cp -r $i $HOME)
 done
 
-git config --global user.email "ashley.joshua@gmail.com"
-git config --global user.name "josh"
+sudo cp -r vim/* $HOME/.vim/
 
+git config --global user.email 'ashley.joshua@gmail.com'
+git config --global user.name 'josh'
