@@ -20,6 +20,7 @@ for i in $DOTFILES; do
     $(cp -r $i $HOME)
 done
 
+mkdir $HOME/.vim/
 sudo cp -r vim/* $HOME/.vim/
 
 git config --global user.email 'ashley.joshua@gmail.com'
