@@ -13,3 +13,18 @@
 [submodule "ubuntu16-04/vim/python-mode"]
 	path = ubuntu16-04/vim/python-mode
 	url = git@github.com:python-mode/python-mode.git
+[submodule "ubuntu16-04/vim/bundle/python-mode"]
+	path = ubuntu16-04/vim/bundle/python-mode
+	url = git@github.com:python-mode/python-mode.git
+[submodule "ubuntu16-04/vim/bundle/nerdcommenter"]
+	path = ubuntu16-04/vim/bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "ubuntu16-04/vim/bundle/nerdtree"]
+	path = ubuntu16-04/vim/bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "ubuntu16-04/vim/bundle/MatchTag"]
+	path = ubuntu16-04/vim/bundle/MatchTag
+	url = git@github.com:gregsexton/MatchTag.git
+[submodule "ubuntu16-04/vim/bundle/ctrlp.vim"]
+	path = ubuntu16-04/vim/bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
