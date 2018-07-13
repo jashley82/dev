@@ -14,7 +14,7 @@ sudo cp PowerlineSymbols.otf /usr/local/share/fonts/
 sudo cp 10-powerline-symbols.conf /etc/fonts/conf.d/
 sudo fc-cache -vf
 
-DOTFILES=".bashrc .vimrc .tmux.conf"
+DOTFILES=".bashrc .vimrc .tmux.conf .gdbinit"
 
 for i in $DOTFILES; do
     $(cp -r $i $HOME)
