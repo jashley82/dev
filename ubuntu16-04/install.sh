@@ -25,3 +25,6 @@ sudo cp -r vim/* $HOME/.vim/
 
 git config --global user.email 'ashley.joshua@gmail.com'
 git config --global user.name 'josh'
+
+git submodule init
+git submodule update
