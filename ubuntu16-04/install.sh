@@ -16,6 +16,9 @@ sudo fc-cache -vf
 
 DOTFILES=".bashrc .vimrc .tmux.conf .gdbinit"
 
+git submodule init
+git submodule update
+
 for i in $DOTFILES; do
     $(cp -r $i $HOME)
 done
@@ -25,6 +28,3 @@ sudo cp -r vim/* $HOME/.vim/
 
 git config --global user.email 'ashley.joshua@gmail.com'
 git config --global user.name 'josh'
-
-git submodule init
-git submodule update
